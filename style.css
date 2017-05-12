@@ -36,3 +36,71 @@ nav span {
   text-decoration: underline;
 
 }
+
+.content-main {
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+#mission .text {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+.text h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+#inventory {
+  width: 1000px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.items {
+  display: flex;
+  padding-bottom: 70px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+#locations {
+  padding-top: 70px;
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.location {
+  padding: 10px;
+  margin: 5px 20px;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+#contact h2 {
+  margin-top: 5px;
+}
+
+#contact {
+  height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
